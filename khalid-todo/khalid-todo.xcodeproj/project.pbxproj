@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E928B2E92C75F23E006BB792 /* HeadersVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = E928B2E82C75F23E006BB792 /* HeadersVeiw.swift */; };
+		E928B2EB2C75FF9D006BB792 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E928B2EA2C75FF9D006BB792 /* TLButton.swift */; };
+		E928B2ED2C760CA8006BB792 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E928B2EC2C760CA8006BB792 /* Extensions.swift */; };
 		E96BDA7C2C6FAB6D0086FE0F /* khalid_todoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96BDA7B2C6FAB6D0086FE0F /* khalid_todoApp.swift */; };
 		E96BDA7E2C6FAB6D0086FE0F /* MainVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96BDA7D2C6FAB6D0086FE0F /* MainVeiw.swift */; };
 		E96BDA802C6FAB6E0086FE0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E96BDA7F2C6FAB6E0086FE0F /* Assets.xcassets */; };
@@ -37,6 +40,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E928B2E82C75F23E006BB792 /* HeadersVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadersVeiw.swift; sourceTree = "<group>"; };
+		E928B2EA2C75FF9D006BB792 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		E928B2EC2C760CA8006BB792 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../../Documents/Extensions.swift; sourceTree = "<group>"; };
 		E96BDA782C6FAB6D0086FE0F /* khalid-todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "khalid-todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E96BDA7B2C6FAB6D0086FE0F /* khalid_todoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = khalid_todoApp.swift; sourceTree = "<group>"; };
 		E96BDA7D2C6FAB6D0086FE0F /* MainVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVeiw.swift; sourceTree = "<group>"; };
@@ -137,6 +143,8 @@
 				E96BDAA82C7111210086FE0F /* SignupVeiw.swift */,
 				E96BDAAA2C7111B00086FE0F /* ToDoListItemVeiw.swift */,
 				E96BDAB02C7112520086FE0F /* NewItemVeiw.swift */,
+				E928B2E82C75F23E006BB792 /* HeadersVeiw.swift */,
+				E928B2EA2C75FF9D006BB792 /* TLButton.swift */,
 			);
 			path = Veiws;
 			sourceTree = "<group>";
@@ -165,6 +173,7 @@
 		E96BDAA12C710F6E0086FE0F /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				E928B2EC2C760CA8006BB792 /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -255,9 +264,11 @@
 				E96BDAAD2C7111ED0086FE0F /* Users.swift in Sources */,
 				E96BDAAB2C7111B00086FE0F /* ToDoListItemVeiw.swift in Sources */,
 				E96BDAA52C7111060086FE0F /* ProfileVeiw.swift in Sources */,
+				E928B2E92C75F23E006BB792 /* HeadersVeiw.swift in Sources */,
 				E96BDAB72C7112B20086FE0F /* ProfileVeiwModel.swift in Sources */,
 				E96BDAB92C7112C00086FE0F /* LoginVeiwModel.swift in Sources */,
 				E96BDABB2C7112CB0086FE0F /* SignupVeiwModel.swift in Sources */,
+				E928B2EB2C75FF9D006BB792 /* TLButton.swift in Sources */,
 				E96BDABD2C7112D80086FE0F /* NewItemVeiwModel.swift in Sources */,
 				E96BDAAF2C7111F90086FE0F /* ToDoListItem.swift in Sources */,
 				E96BDAB52C71129A0086FE0F /* ToDoListVeIwModel.swift in Sources */,
@@ -265,6 +276,7 @@
 				E96BDA7C2C6FAB6D0086FE0F /* khalid_todoApp.swift in Sources */,
 				E96BDAB12C7112520086FE0F /* NewItemVeiw.swift in Sources */,
 				E96BDAA72C7111140086FE0F /* LoginVeiw.swift in Sources */,
+				E928B2ED2C760CA8006BB792 /* Extensions.swift in Sources */,
 				E96BDAB32C7112760086FE0F /* MainVeiwModel.swift in Sources */,
 				E96BDAA92C7111210086FE0F /* SignupVeiw.swift in Sources */,
 				E96BDAA32C7110F80086FE0F /* ToDoListVeiw.swift in Sources */,

@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct MainVeiw: View {
+    @StateObject var veiwModel = MainVeiwModel()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView{
+            if veiwModel.isSignedIn, !veiwModel.currentUserId.isEmpty {
+                //signedIn
+                ToDoListVeiw()
+            }else {
+                LoginVeiw()
+            }
+            
         }
-        .padding()
     }
 }
 
